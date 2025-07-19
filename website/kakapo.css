@@ -1,7 +1,7 @@
 .parent {
 display: grid;
 grid-template-columns: repeat(12, 1fr);
-grid-template-rows: 50px 100px 100px 100px 50px 200px 100px 100px 100px 100px 100px 50px 200px 100px 40px 720px 100px 100px 100px 50px 300px 100px 150px 100px 100px 150px 50px 100px 70px 150px 100px 50px 70px 100px 50px 20px 20px 20px 20px 20px 100px 30px;
+grid-template-rows: 50px 100px 100px 100px 50px 200px 100px 100px 100px 100px 100px 50px 200px 100px 40px 720px 100px 100px 100px 1px 100px 300px 150px 100px 30px 150px 50px 100px 70px 150px 100px 50px 70px 100px 50px 20px 20px 20px 20px 20px 100px 30px;
 grid-column-gap: 10px;
 grid-row-gap: 25px;
 }
@@ -112,66 +112,101 @@ grid-row-gap: 25px;
   margin-bottom: 30px;
 }
 .strat_img1{
-  grid-area: 21 / 1 / 22 / 5;
+  grid-area: 22 / 1 / 23 / 5;
   transform: scale(0.9);
   background-image: url("img/predator.jpg");
   background-size: 450px;
   background-repeat: no-repeat;
+  margin-left: 25px;
 }
 .strat_img2{
-  grid-area: 21 / 5 / 22 / 9;
-  transform: scale(0.9)
+  grid-area: 22 / 4 / 23 / 9;
+  transform: scale(0.9);
   background-image: url("img/adopt.webp");
-  background-size: contain;
+  background-size: 550px;
   background-repeat: no-repeat;
+  margin-left: 25px;
 }
 .strat_img3{
-  grid-area: 21 / 9 / 22 / 13;
+  grid-area: 22 / 9 / 23 / 13;
   transform: scale(0.9);
   background-image: url("img/monitor.jpg");
   background-size: 450px;
   background-repeat: no-repeat;
+  margin-right: 10px;
 }
 .strat_sub1{
-  grid-area: 22 / 1 / 23 / 5;
-  margin-left: 22px;
-  margin-right: 22px;
-
+  grid-area: 21 / 1 / 22 / 5;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 80px;
 }
 .strat_sub2{
-  grid-area: 22 / 5 / 23 / 9;
-  margin-left: 22px;
-  margin-right: 22px;
+  grid-area: 21 / 5 / 22 / 9;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 75px;
 }
 .strat_sub3{
-  grid-area: 22 / 9 / 23 / 13;
-  margin-left: 22px;
-  margin-right: 22px;
+  grid-area: 21 / 9 / 22 / 13;
+  font-size: 40px;
+  font-weight: bold;
 }
 .strat_txt1{
-  grid-area: 23 / 1 / 24 / 5;
-  margin-left: 22px;
-  margin-right: 22px;
+  grid-area: 23 / 1 / 24 / 4;
+  margin-right: 30px;
+  margin-left: 80px;
+  text-align: center;
+
 }
 .strat_txt2{
   grid-area: 23 / 5 / 24 / 9;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-right: 100px;
+  text-align: center;
+
 }
 .strat_txt3{ 
   grid-area: 23 / 9 / 24 / 13;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-right: 55px;
+  margin-left: 40px;
+  text-align: center;
 }
 
-.why_title{grid-area: 25 / 2 / 26 / 6}
-.why_sub{grid-area: 26/ 2 / 27 / 7}
-.eco_img{grid-area: 28 / 1 / 29 / 2}
-.eco_title{grid-area: 29 / 1 / 30 / 5}
-.eco_txt{grid-area: 30 / 1 / 31 / 6}
-.cult_img{grid-area: 28 / 8 / 29 / 9}
-.cult_title{grid-area: 29 / 8 / 30 / 12}
-.cult_txt{grid-area: 30 / 8 / 31 / 13}
+.why_title{
+  grid-area: 25 / 1 / 26 / 5;
+  font-size: 50px;
+  font-weight: bold;
+}
+.why_sub{
+  grid-area: 26/ 1 / 27 / 8;
+  margin-left: 70px;
+
+}
+.eco_img{
+  grid-area: 28 / 1 / 29 / 2;
+  background-image: url("img/ecological.jpg");
+    background-size: 150px;
+  background-repeat: no-repeat;
+}
+.eco_title{
+  grid-area: 29 / 1 / 30 / 5;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.eco_txt{grid-area: 30 / 1 / 31 / 6;}
+.cult_img{
+  grid-area: 28 / 8 / 29 / 9;
+  background-image: url("img/cultural.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cult_title{
+  grid-area: 29 / 8 / 30 / 12;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cult_txt{grid-area: 30 / 8 / 31 / 13;}
 
 .join_title{
   grid-area: 32 / 1 / 33 / 4;
